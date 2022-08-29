@@ -9,12 +9,12 @@ public class PostmanEchoTest {
     void DontKnowYet(){
         given()
                 .baseUri("https://postman-echo.com")
-                .body("some data") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                //.body("some data") // отправляемые данные (заголовки и query можно выставлять аналогично)
 // Выполняемые действия
-                .when()
+        .when()
                 .post("/post")
 // Проверки
-                .then()
+        .then()
                 .statusCode(200)
                 //.body(/* --> ваша проверка здесь <-- */)
         ;
