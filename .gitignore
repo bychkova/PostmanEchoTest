@@ -1,6 +1,8 @@
 HELP.md
 .gradle
 build/
+src/.DS_Store
+
 
 ### STS ###
 .apt_generated
