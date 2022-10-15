@@ -2,6 +2,7 @@ HELP.md
 .gradle
 build/
 src/.DS_Store
+artifacts/.DS_Store
 
 
 ### STS ###

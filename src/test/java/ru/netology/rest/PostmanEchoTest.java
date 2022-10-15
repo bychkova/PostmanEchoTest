@@ -6,10 +6,10 @@ import static io.restassured.RestAssured.given;
 
 public class PostmanEchoTest {
     @Test
-    void DontKnowYet(){
+    void PostRequestTest(){
         given()
                 .baseUri("https://postman-echo.com")
-                //.body("some data")
+                //.body("data", name)
         .when()
                 .post("/post")
         .then()
